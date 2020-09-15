@@ -1,2 +1,1 @@
-# KKU
-Untersuchung essentieller IT-Sicherheitsmaßnahmen auf Basis des IT-Grundschutzes für kleine und kleinste Unternehmen
+# Untersuchung essentieller IT-Sicherheitsmaßnahmen auf Basis des IT-Grundschutzes für kleine und kleinste Unternehmen
