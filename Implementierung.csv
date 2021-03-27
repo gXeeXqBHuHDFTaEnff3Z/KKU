@@ -1,33 +1,60 @@
-ID;Bausteintitel;Anforderung;Titel (gekürzt);Umsetzungshinweise;Implementierung;Fin Imp;Zeit Imp;Zeit Wart;GESAMT;Aufwandsschätzung;Zeit Imp Praxis;Bemerkung
-1;SYS.2.1 Allgemeiner Client;SYS.2.1.A3;Autoupdate;https://www.bsi.bund.de/DE/Themen/ITGrundschutz/ITGrundschutzKompendium/umsetzungshinweise/SYS/Umsetzungshinweise_zum_Baustein_SYS_2_1_Allgemeiner_Client.html;siehe Bemerkungen;null;gering;null;0,07;$<30min$;;abgedeckt durch OPS.1.1.3.A3
-2;SYS.2.1 Allgemeiner Client;SYS.2.1.A16;Unnötiges deaktivieren;https://www.bsi.bund.de/DE/Themen/ITGrundschutz/ITGrundschutzKompendium/umsetzungshinweise/SYS/Umsetzungshinweise_zum_Baustein_SYS_2_1_Allgemeiner_Client.html;SOLL;null;gering;null;0,07;$<30min$;;
-3;NET.1.1 Netzarchitektur und -design;NET.1.1.A9;Grundlegende Netztrennung;keine;SOLL;null;gering;null;0,06;$<30min$;;
-4;NET.3.1 Router und Switches;NET.3.1.A3;Restriktive Rechtevergabe;keine;SOLL;null;gering;null;0,06;$<30min$;;
-5;NET.3.2 Firewall;NET.3.2.A5;Restriktive Rechtevergabe;keine;siehe Bemerkungen;null;gering;null;0,06;$<30min$;;abgedeckt durch NET.3.1.A3, da beides Fritzbox
-6;NET.3.2 Firewall;NET.3.2.A17;Deaktivierung von IPv4 oder IPv6;keine;SOLL;null;gering;null;0,06;$<30min$;;
-7;NET.4.1 TK-Anlagen;NET.4.1.A3;Änderung voreingestellter Passwörter;https://www.bsi.bund.de/DE/Themen/ITGrundschutz/ITGrundschutzKompendium/umsetzungshinweise/NET/Umsetzungshinweise_zum_Baustein_NET_4_1_TK-Anlagen.html;SOLL;null;gering;null;0,06;$<30min$;;
-8;OPS.1.1.3 Patch- und Änderungsmanagement;OPS.1.1.3.A3;Autoupdate;https://www.bsi.bund.de/DE/Themen/ITGrundschutz/ITGrundschutzKompendium/umsetzungshinweise/OPS/Umsetzungshinweise_zum_Baustein_OPS_1_1_3_Patch-_und_%C3%84nderungsmanagement.html;SOLL;null;gering;null;0,06;$<30min$;;
-9;SYS.1.3 Server unter Linux und Unix;SYS.1.3.A6;Verwaltung von Benutzern und Gruppen;keine;SOLL;null;gering;null;0,06;$<30min$;;
-10;SYS.1.8 Speicherlösungen;SYS.1.8.A3;Restriktive Rechtevergabe;keine;SOLL;null;gering;gering;0,03;$<30min$;;
-11;INF.9 Mobiler Arbeitsplatz;INF.9.A5;Zeitnahe Verlustmeldung;https://www.bsi.bund.de/DE/Themen/ITGrundschutz/ITGrundschutzKompendium/umsetzungshinweise/INF/Umsetzungshinweise_zum_Baustein_INF_9_Mobiler_Arbeitsplatz.html;SOLL;null;gering;null;0,03;$<30min$;;
-12;APP.1.2 Webbrowser;APP.1.2.A4;Webbrowser aktualisieren;https://www.bsi.bund.de/DE/Themen/ITGrundschutz/ITGrundschutzKompendium/umsetzungshinweise/APP/Umsetzungshinweise_zum_Baustein_APP_1_1_Office-Produkte.html;SOLL;null;gering;gering;0,03;$<30min$;;
-13;APP.3.3 Fileserver;APP.3.3.A7;Auswahl eines Dateisystems;keine;SOLL;null;gering;null;0,03;$<30min$;;
-14;NET.1.2 Netzmanagement;NET.1.2.A8;Zeit-Synchronisation;keine;SOLL;null;gering;null;0,02;$<30min$;;
-15;NET.2.1 WLAN-Betrieb;NET.2.1.A5;Sichere Basis-Konfiguration des AP;https://www.bsi.bund.de/DE/Themen/ITGrundschutz/ITGrundschutzKompendium/umsetzungshinweise/NET/Umsetzungshinweise_zum_Baustein_NET_2_1_WLAN-Betrieb.html;SOLL;null;gering;null;0,02;$<30min$;;
-16;SYS.3.2.1 Allgemeine Smartphones und Tablets;SYS.3.2.1.A16;Deaktivierung unnötiger Schnittstellen;keine;SOLL;null;gering;null;0,01;$<30min$;;
-17;SYS.3.2.4 Android;SYS.3.2.4.A2;Deaktivieren der Entwickler-Optionen;keine;SOLL;null;gering;null;0,01;$<30min$;;
-18;DER.2.1 Behandlung von Sicherheitsvorfällen;DER.2.1.A4;Benachrichtigung bei Sicherheitsvorfällen;keine;SOLL;null;gering;gering;0,01;$<30min$;;
-19;NET.1.2 Netzmanagement;NET.1.2.A22;Beschränkung der Management-Funktionen;keine;SOLL;null;gering;null;0,01;$<30min$;;
-20;OPS.1.1.4 Schutz vor Schadprogrammen;OPS.1.1.4.A5;Virenschutzprogramme betreiben;keine;SOLL;null;gering;null;0,01;$<30min$;;
-21;OPS.1.1.4 Schutz vor Schadprogrammen;OPS.1.1.4.A6;Regelmäßiges Update der Virenscanner;keine;SOLL;null;null;gering;0,01;$0min$;;
-22;OPS.1.1.4 Schutz vor Schadprogrammen;OPS.1.1.4.A8;Detektionsverbesserung durch Cloud-Dienste;keine;SOLL;null;gering;null;0,01;$<30min$;;
-23;OPS.1.1.4 Schutz vor Schadprogrammen;OPS.1.1.4.A9;Meldung von Infektionen mit Schadprogrammen;keine;SOLL;null;gering;null;0,01;$<30min$;;
-24;SYS.1.1 Allgemeiner Server;SYS.1.1.A6;Unnötige Dienste und Kennungen aus;https://www.bsi.bund.de/DE/Themen/ITGrundschutz/ITGrundschutzKompendium/umsetzungshinweise/SYS/Umsetzungshinweise_zum_Baustein_SYS_1_1_Allgemeiner_Server.html;SOLL;null;gering;null;0,01;$<30min$;;
-25;SYS.1.3 Server unter Linux und Unix;SYS.1.3.A4;Schutz vor Ausnutzung von Exploits;keine;SOLL;null;gering;null;0,01;$<30min$;;
-26;SYS.2.2.3 Clients unter Windows 10;SYS.2.2.3.A5;Schutz vor Schadsoftware;keine;siehe Bemerkungen;null;gering;null;0,01;$<30min$;;abgedeckt durch OPS.1.1.4.A6, da Client
-27;SYS.2.2.3 Clients unter Windows 10;SYS.2.2.3.A11;Schutz der Logininformationen;keine;SOLL;null;gering;null;0,01;$<30min$;;
-28;SYS.2.2.3 Clients unter Windows 10;SYS.2.2.3.A18;Einsatz der Windows-Remoteunterstützung;keine;siehe Bemerkungen;null;gering;null;0,01;$<30min$;;abgedeckt durch SYS.2.1.A16
-29;SYS.2.2.3 Clients unter Windows 10;SYS.2.2.3.A19;Sicherheit beim Fernzugriff über RDP;keine;siehe Bemerkungen;null;gering;null;0,01;$<30min$;;abgedeckt durch SYS.2.1.A16
-30;SYS.3.2.1 Allgemeine Smartphones und Tablets;SYS.3.2.1.A14;Safe Browsing aktivieren;keine;SOLL;null;gering;null;0,01;$<30min$;;
-31;SYS.4.5 Wechseldatenträger;SYS.4.5.A2;Verlust- bzw. Manipulationsmeldung;keine;SOLL;null;gering;null;0,00;$<30min$;;
-32;CON.3 Datensicherungskonzept;CON.3.A4;Minimaldatensicherungskonzept;https://www.bsi.bund.de/DE/Themen/ITGrundschutz/ITGrundschutzKompendium/umsetzungshinweise/CON/Umsetzungshinweise_zum_Baustein_CON_3_Datensicherungskonzept.html?nn=10027602;SOLL;gering;gering;gering;0,00;$<30min$;;
+System;Maßnahme;Anforderungen;Zeit in min pro Gerät;Anzahl Geräte;Zeit in min Gesamt;Bemerkungen;Quelle
+Windows;OS Autoupdate aktivieren;"SYS.2.1.A3
+OPS.1.1.3.A3 ";3;5,00;15;Default on;
+Android;Appstore Autoupdate aktivieren;"SYS.2.1.A3
+OPS.1.1.3.A3
+APP.1.2.A4  ";4;3,00;12;Default nur über WLAN;https://support.google.com/googleplay/answer/113412?hl=en
+Windows;Office Autoupdate aktivieren;"SYS.2.1.A3
+OPS.1.1.3.A3 ";3;5,00;15;"Default off
+via Windows Update";https://docs.microsoft.com/de-de/office365/troubleshoot/updates/automatic-updates
+Windows;Chrome Autoupdate aktivieren;"SYS.2.1.A3
+OPS.1.1.3.A3
+APP.1.2.A4 ";4;5,00;20;Default on;https://support.google.com/chrome/a/answer/6350036?hl=de#zippy=%2Cautomatische-updates-aktivieren-empfohlen
+Windows;Vorinstallierte Apps deinstallieren;SYS.2.1.A16;10;5,00;50;inkl. Bloatware; https://gist.github.com/wdormann/49f1807431b0d5b5cd151337e6478f20#file-disable_win10_foistware-reg
+Windows;Foxit Reader Autoupdate aktivieren;"SYS.2.1.A3
+OPS.1.1.3.A3 ";4;5,00;20;Default werden Updates heruntergeladen, aber manuell installiert;https://kb.foxitsoftware.com/hc/en-us/articles/360040660491-How-to-enable-the-automatic-updater-
+Windows;Deaktivieren: Office Macros, OLE, WSH, Active X;SYS.2.1.A16 ;13;5,00;65;mittels HardenTools 2.0;"https://www.microsoft.com/security/blog/2016/03/22/new-feature-in-office-2016-can-block-macros-and-help-prevent-infection/
+https://securitywithoutborders.org/blog/2020/07/06/hardentools-2-is-out.html"
+Fritzbox;Grundlegende Netztrennung;NET.1.1.A9;8;1,00;8;"Trennung Internet / LAN per Default
+Weitere Trennung möglich durch Verwendung des integrierten Gäste-Netzes für Geräte die keinen NAS-Zugriff benötigen";"https://avm.de/service/fritzbox/fritzbox-7390/wissensdatenbank/publication/show/57_Sicherheitsfunktionen-Firewall-der-FRITZ-Box/
+https://avm.de/service/fritzbox/fritzbox-7390/wissensdatenbank/publication/show/294_WLAN-Gastzugang-privater-Hotspot-einrichten/"
+Fritzbox;Anlegen von Benutzern und Passwörten;"NET.3.1.A3 
+NET.3.2.A5";6;1,00;6;;https://avm.de/service/fritzbox/fritzbox-7390/wissensdatenbank/publication/show/1522_Im-Heimnetz-uber-Benutzerkonten-auf-FRITZ-Box-zugreifen/
+Fritzbox;Deaktivierung von IPv6;NET.3.2.A17;3;1,00;3;Default an;https://avm.de/service/fritzbox/fritzbox-7390/wissensdatenbank/publication/show/573_IPv6-Unterstutzung-in-FRITZ-Box-einrichten/
+Fritzbox;Änderung voreingestellter Passwörter;NET.4.1.A3;4;1,00;4;nur WLAN notwendig, da Admin bereits erfolgt;https://www.routerdefaults.org/de/avm/fritzbox-7390
+NAS;Zugriffsrechte auf NAS setzen;"SYS.1.3.A6
+SYS.1.8.A3";21;1,00;21;Büro-Nutzer lesen und schreiben, alle anderen nur lesen;
+Windows;Journaling und Zugriffsschutz Filesystem;APP.3.3.A7;4;5,00;20;Default da NTFS;
+"Fritzbox
+Windows
+NAS";NTP Zeitsynchronisation;NET.1.2.A8;5;7,00;35;Konfiguration Fritzbox und Clients notwendig;https://avm.de/service/fritzbox/fritzbox-7390/wissensdatenbank/publication/show/336_Zeitsynchronisation-NTP-fur-FRITZ-Box-und-Netzwerkgerate-einrichten/
+"Fritzbox
+Windows";Sichere Basis-Konfiguration des AP;NET.2.1.A5;3;1,00;3;"Änderung nur SSID
+Kennwörter sind bereits geändert";
+Android;Deaktivierung unnötiger Schnittstellen;SYS.3.2.1.A16;7;3,00;21;Bluetooth, NFC gefunden;
+Android;Deaktivieren der Entwickler-Optionen;SYS.3.2.4.A2;4;3,00;12;Default aus;https://developer.android.com/studio/debug/dev-options
+Fritzbox;Fernzugriff ausschalten;NET.1.2.A22;4;1,00;4;Default aus;https://avm.de/service/fritzbox/fritzbox-7390/wissensdatenbank/publication/show/1001_Uber-das-Internet-auf-die-FRITZ-Box-zugreifen/
+Windows;Detektionsverbesserung durch Defender Cloud;OPS.1.1.4.A8;3;5,00;15;Default an;https://docs.microsoft.com/de-de/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus
+Windows;Defender aktivieren;"SYS.2.2.3.A5
+OPS.1.1.4.A5  ";6;5,00;30;"Default an: Echtzeitschutz
+Default aus: Überwachter Ordnerzugriff";
+Windows;Defender Autoupdate aktivieren;"OPS.1.1.4.A6
+SYS.2.1.A3";4;5,00;20;Default an;https://docs.microsoft.com/de-de/windows/security/threat-protection/microsoft-defender-antivirus/manage-protection-update-schedule-microsoft-defender-antivirus
+Windows;Netzanmeldung von lokalen Konten verbieten;SYS.2.2.3.A11;9;5,00;45;"Windows Defender Credential Guard nur für Enterprise/Server möglich
+Netzanmeldung per RDP per Default off";https://docs.microsoft.com/de-de/windows/security/identity-protection/credential-guard/credential-guard-manage
+Android;Avira Virenscanner installieren und Plan anlegen;OPS.1.1.4.A5;11;3,00;33;Default: Google Play Protect;https://www.av-test.org/de/news/so-gut-schuetzen-17-android-security-apps/
+Windows;Ungenutzte Programme deinstallieren;SYS.2.1.A16 ;19;5,00;95;Einige vorinstallierte Apps wie Kontakte sind nicht trivial zu deinstallieren und wurden auf dem System belassen;
+Windows;Windows-Remoteunterstützung deaktivieren;SYS.2.2.3.A18;4;5,00;20;Default an;
+Windows;RDP deaktivieren;SYS.2.2.3.A19;2;5,00;10;Default aus;
+Android;Safe Browsing aktivieren;SYS.3.2.1.A14;5;3,00;15;;https://support.google.com/chrome/answer/9890866?co=GENIE.Platform%3DAndroid&hl=en
+NAS;Einfaches externes Backup anstoßen;CON.3.A4;8;1,00;8;;
+NAS;Unnötige Dienste und Kennungen aus;SYS.1.1.A6;32;1,00;32;https://www.synology.com/de-de/knowledgebase/DSM/tutorial/Management/How_to_add_extra_security_to_your_Synology_NAS;
+NAS;ASLR  aktiviert;SYS.1.3.A4;7;1,00;7;Default an;
+NAS;DEP/NX im Kernel aktiviert;SYS.1.3.A4;37;1,00;37;Aktivierung nicht möglich: Wird von CPU (Marvell PJ4Bv7) nicht unterstützt;
+NAS;Heap- und Stackschutz aktiviert;SYS.1.3.A4;11;1,00;11;;
+Android;App-Berechtigungen auf nötiges beschränken;SYS.2.1.A16;12;3,00;36;;
+Android;Regelmäßiges Update der Virenscanner;OPS.1.1.4.A6;5;3,00;15;Default an, nicht konfigurierbar;
+Android;Detektionsverbesserung durch Cloud-Dienste;OPS.1.1.4.A8;5;3,00;15;Default an, nicht konfigurierbar;
+SUMME;;;290;;778;;
+MEDIAN;;;5;;15;;
+;;;04:50:00;;;;
